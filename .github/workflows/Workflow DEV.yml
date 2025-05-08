@@ -58,7 +58,6 @@ jobs:
     if: success()
     steps:
       - name: "TODO to Issue"
-      uses: "alstr/todo-to-issue-action@v5"
-      with:
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
+        uses: "alstr/todo-to-issue-action@v5"
+        with:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
