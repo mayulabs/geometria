@@ -43,3 +43,5 @@ def condicao_existencia_triangulo(ladoA, ladoB, ladoC):
         ]
     )
 
+# TODO Adicionar o cálculo do tipo de triângulo (equilátero, isósceles, escaleno)
+
